@@ -6,4 +6,16 @@ $roboto-font-path: '../assets/';
 
 .custom-nav {
   background-color: green;
+  margin-bottom: none;
+}
+
+.splash {
+  margin: none;
+  padding: none;
+  display: inline;
+}
+
+.splash-image {
+  max-width: 100%;
+  margin-top: none;
 }
