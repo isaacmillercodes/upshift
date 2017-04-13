@@ -1,4 +1,4 @@
-<div class="container">
+<!-- <div class="container">
   <div class="menu">
     {{#link-to 'index'}}
       <h1>
@@ -12,11 +12,33 @@
       <!-- {{#link-to 'contact'}} -->
         Contact
       <!-- {{/link-to}} -->
-    </div>
+    <!-- </div>
   </div>
   <div class="body">
     {{outlet}}
   </div>
   <div class="body-footer">
   </div>
-</div>
+</div> -->
+
+<nav>
+  <div class="nav-wrapper custom-nav">
+    {{#link-to 'index'}}
+    <a class="brand-logo">Upshift</a>
+    {{/link-to}}
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+      {{#link-to 'about'}}
+      <li>About</li>
+      {{/link-to}}
+      {{#link-to 'login'}}
+      <li>Login</li>
+      {{/link-to}}
+      {{#link-to 'register'}}
+      <li>Register</li>
+      {{/link-to}}
+    </ul>
+  </div>
+  </nav>
+  <div class="body">
+    {{outlet}}
+  </div>
